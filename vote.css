@@ -1,0 +1,86 @@
+
+.candidato{
+    display: flex;
+     justify-content: center;
+  }
+  
+  
+  .candidato1 {
+
+      margin: 10px;
+      background-image: url('imagens/lula.jpg'); /* Substitua pelo caminho da sua imagem */
+      background-size: cover;
+      width: 198px; /* Largura do botão */
+      height: 264px; /* Altura do botão */
+      border: none;
+      cursor: pointer;
+      outline: none;
+      position: relative;
+      border: 5px solid;
+   
+  }
+  
+  .candidato1:hover {
+      opacity: 0.8; /* Efeito ao passar o mouse */
+  }
+  
+  .candidato2 {
+      margin: 10px;
+      background-image: url('imagens/bolsonaro.jpg'); /* Substitua pelo caminho da sua imagem */
+      background-size: cover;
+      width: 198px; /* Largura do botão */
+      height: 264px; /* Altura do botão */
+      border: none;
+      cursor: pointer;
+      outline: none;
+      position: relative;
+      border: 5px solid;
+  }
+  
+  .candidato2:hover {
+      opacity: 0.8; /* Efeito ao passar o mouse */
+  }
+  
+  .candidato3 {
+      margin: 10px;
+      background-image: url('imagens/henry.jpg'); /* Substitua pelo caminho da sua imagem */
+      background-size: cover;
+      width: 198px; /* Largura do botão */
+      height: 264px; /* Altura do botão */
+      border: none;
+      cursor: pointer;
+      outline: none;
+      position: relative;
+      border: 5px solid;
+  }
+  
+  .candidato3:hover {
+      opacity: 0.8; /* Efeito ao passar o mouse */
+  }
+  
+  .titulo{
+      text-align: center;
+  }
+  
+  .enviar{
+      width: 100px;
+      height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px 20px; /* Adiciona preenchimento ao botão */
+      font-size: 16px; /* Tamanho da fonte */
+      cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+      background-color: green;
+
+
+  }
+  
+  #votacao{
+      display: grid;
+      grid-column: auto;
+      justify-items: center;
+      align-items: center;
+  }
+  
+  

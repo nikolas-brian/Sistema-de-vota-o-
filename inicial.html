@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Altura total da tela */
+            background-image: url('imagens/bandeira.gif'); /* Adicionando a imagem de fundo aqui */
+            background-size: cover; /* Faz a imagem cobrir todo o fundo */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Não repete a imagem */
+            background-color: #f0f0f0; /* Cor de fundo */
+            font-family: Arial, sans-serif; /* Fonte */
+        }
+        .container {
+            text-align: center; /* Centraliza o texto */
+        }
+        .botao {
+            padding: 10px 20px; /* Preenchimento do botão */
+            font-size: 16px; /* Tamanho da fonte */
+            cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+            background-color: #4CAF50; /* Cor de fundo do botão */
+            color: white; /* Cor do texto do botão */
+            border: none; /* Remove a borda padrão */
+            border-radius: 5px; /* Bordas arredondadas */
+            transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+        }
+        .botao:hover {
+            background-color: #45a049; /* Cor ao passar o mouse */
+        }
+
+        .texto{
+            color: black;       
+            font-weight: bold;  
+            background-color: azure;
+        }
+
+        .titulo{
+            color: black;       
+            font-weight: bold; 
+            top: 0;
+            z-index: 1000;
+            position: fixed; /* Fixa o texto na parte superior */
+            top: 0; /* Distância do topo */
+            left: 0; /* Alinha à esquerda */
+            width: 100%; /* Largura total */
+            background-color: azure;
+            padding: 10px; /* Espaçamento interno */
+            text-align: center; /* Centraliza o texto */
+            z-index: 1000; /* Garante que fique acima de outros elementos */
+        }
+            
+          
+           
+            
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="titulo">Bem-vindo!</h1>
+
+        <p class="texto">Está preparado para votar? <br> Vote com consciência e atenção.</p>
+        <button class="botao" onclick="irParaTelaPrincipal()">Começar a votação</button>
+    </div>
+
+    <script>
+        function irParaTelaPrincipal() {
+            window.location.href = 'index.html'; // Redireciona para a tela principal
+        }
+    </script>
+</body>
+</html>
